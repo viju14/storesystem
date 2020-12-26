@@ -1,0 +1,58 @@
+Body {
+background-color: pink;
+}
+
+# align table to center
+.table {
+    font-size:13px;
+    text-align:center;
+    width:95%;
+    margin:auto;
+    text-align:center;
+}
+#altarnate colur to column
+.table tr:nth-child(odd){
+    background:#86b8c2
+}
+
+.table tr:nth-child(even){
+    background:#bcdde3
+}
+
+th{
+    background-color:#66b3ff;
+    color:white;
+}
+
+.display-table {
+    border-bottom-right-radius:20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    box-shadow: 12px 12px 20px 6px #4080bf;
+}
+.header {
+    font-family: SINKIN SANS;
+    color:#008080;
+    font-size: 52px;
+    text-align: center;
+    width : 100%;
+    text-shadow: 6px 6px 6px #66CCCC;
+    display : block;
+    font-weight: bolder;
+
+}
+.img {
+    width:2%;
+    hight:2%;
+
+}
+
+.messages {
+    list-style:none;
+    background-color:#2a70bf;
+    color:white;
+    box-shadow:12px 12px 12px #2a70bf;
+    text-align:center;
+
+}
